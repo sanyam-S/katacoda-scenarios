@@ -1,27 +1,27 @@
 A Katacoda scenario is a series of Markdown files, bash scripts and a JSON file to define how your scenario should be configured, the text for the scenario and any automation required.
 
 Task
-Clone our example repository that contains the set of documentation with the following command:
+Installing and configure the openlegacy-cli with the following command:
 
-Step 1: Install the zip file
+Step 1: Download the zip file
 `wget https://ol-public-artifacts.s3.amazonaws.com/openlegacy-cli/latest/linux-macos/openlegacy-cli.zip`{{execute}}
 
-Step 2: Install the Zip
-`apt install unzip -y`{{execute}}
-
-Step 3: 
+Step 2: unzip the file
 `unzip openlegacy-cli.zip`{{execute}}
 
-step 4: 
-`vim ol/bin/install.sh`{{execute}}
+step 3: Install the script 
+`wget https://ol-tsting.s3.amazonaws.com/install.sh`{{execute}}
 
-Step 5:
-`chmod +x install.sh`{{execute}}
+step 4: Move the script
+`mv install.sh ol/bin/`{{execute}}
 
-Step 6:
+step 5: Execute the script
+`chmod +x ol/bin/install.sh`{{execute}}
+
+Step 6: Install the JAVA
 `apt install default-jre`{{execute}}
 
-Step 7: execute the script 
-`./install.sh` 
+Step 7: Execute the script 
+`bash ol/bin/install.sh`{{execute}}
 
 
