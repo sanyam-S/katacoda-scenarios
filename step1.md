@@ -3,9 +3,7 @@ A Katacoda scenario is a series of Markdown files, bash scripts and a JSON file 
 Task
 Clone our example repository that contains the set of documentation with the following command:
 
-Step 1: Install the zip file
-`wget https://ol-public-artifacts.s3.amazonaws.com/openlegacy-cli/latest/linux-macos/openlegacy-cli.zip`{{execute}}
-
+`git clone https://github.com/katacoda/scenario-examples.git katacoda-scenario-examples`{{execute}}
 Step 2: Install the Zip
 `apt install unzip -y`{{execute}}
 
