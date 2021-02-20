@@ -18,10 +18,10 @@ step 4: Move the script
 step 5: Execute the script
 `chmod +x ol/bin/install.sh`{{execute}}
 
-Step 6: Install the JAVA
-`apt install default-jre`{{execute}}
+Step 6: move
+`mv ol/bin`{{execute}}
 
 Step 7: Execute the script 
-`bash ol/bin/install.sh`{{execute}}
+`./install.sh`{{execute}}
 
 
