@@ -4,22 +4,22 @@ Task
 Clone our example repository that contains the set of documentation with the following command:
 
 Step 1: Install the zip file
-`wget https://ol-public-artifacts.s3.amazonaws.com/openlegacy-cli/latest/linux-macos/openlegacy-cli.zip` {{execute}}
+`wget https://ol-public-artifacts.s3.amazonaws.com/openlegacy-cli/latest/linux-macos/openlegacy-cli.zip`{{execute}}
 
 Step 2: Install the Zip
-`apt install unzip -y` {{execute}}
+`apt install unzip -y`{{execute}}
 
 Step 3: 
-`unzip openlegacy-cli.zip` {{execute}}
+`unzip openlegacy-cli.zip`{{execute}}
 
 step 4: 
-`vim ol/bin/install.sh` {{execute}}
+`vim ol/bin/install.sh`{{execute}}
 
 Step 5:
-`chmod +x install.sh` {{execute}}
+`chmod +x install.sh`{{execute}}
 
 Step 6:
-`apt install default-jre` {{execute}}
+`apt install default-jre`{{execute}}
 
 Step 7: execute the script 
 `./install.sh` 
