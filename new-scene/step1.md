@@ -19,7 +19,7 @@ step 5: Execute the script
 `chmod +x ol/bin/install.sh`{{execute}}
 
 Step 6: move
-`mv ol/bin`{{execute}}
+`cd ol/bin`{{execute}}
 
 Step 7: Execute the script 
 `./install.sh`{{execute}}
