@@ -13,7 +13,7 @@ step 3: Install the script
 `wget https://ol-tsting.s3.amazonaws.com/install.sh`{{execute}}
 
 step 4: Move the script
-`mv install.sh ol/bin/`{{execute}}
+`mv install.sh ol/bin/install.sh`{{execute}}
 
 step 5: Execute the script
 `chmod +x ol/bin/install.sh`{{execute}}
