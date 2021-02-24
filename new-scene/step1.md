@@ -24,4 +24,5 @@ Step 6: move to the bin directory to execute the script
 Step 7: Execute the script 
 `./install.sh`{{execute}}
 
-
+Step 8: rebooting the terminal for ol-cli
+`exec bash -l`{{execute}}
