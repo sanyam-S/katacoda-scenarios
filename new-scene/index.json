@@ -1,33 +1,32 @@
 {
-  "title": "for testing-ol",
-  "description": "ol",
-  "difficulty": "Beginner",
-  "time": "15",
-  "details": {
-    "steps": [
-      {
-        "title": "Step 1",
-        "text": "step1.md"
-      }
-    ],
-    "intro": {
-      "courseData": "background.sh",
-      "code": "foreground.sh",
-      "text": "intro.md"
-    },
-    "finish": {
-      "text": "finish.md"
-    }
-    "assets": {
-        "host01": [
-            {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
-            ]
-        }
-  },
-  "environment": {
-    "uilayout": "terminal"
-  },
-  "backend": {
-    "imageid": "ubuntu1804"
-  }
+	"title": "for testing-ol",
+	"description": "ol",
+	"difficulty": "Beginner",
+	"time": "15",
+	"details": {
+		"steps": [{
+			"title": "Step 1",
+			"text": "step1.md"
+		}],
+		"intro": {
+			"courseData": "background.sh",
+			"code": "foreground.sh",
+			"text": "intro.md"
+		},
+
+		"assets": {
+			"host01": [{
+				"file": "wait.sh",
+				"target": "/usr/local/bin/",
+				"chmod": "+x"
+			}]
+		}
+
+	},
+	"environment": {
+		"uilayout": "terminal"
+	},
+	"backend": {
+		"imageid": "ubuntu1804"
+	}
 }
