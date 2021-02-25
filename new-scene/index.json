@@ -10,7 +10,11 @@
 			"title": "Step 1",
 			"text": "step1.md"
 		}
-			 
+            {
+                "title": "Step 2",
+                "courseData": "background-exec.sh",             
+                "text": "step2.md"
+            },
 			 
 			 
 			 ],
