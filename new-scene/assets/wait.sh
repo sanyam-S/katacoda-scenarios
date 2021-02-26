@@ -8,7 +8,7 @@ show_progress()
   local spinstr='\|/-'
   local temp
   while true; do 
-    sudo grep -i "done" /root/ol &> /dev/null
+    sudo grep -i "done" /root/openlegacy-cli.zip &> /dev/null
     if [[ "$?" -ne 0 ]]; then     
       temp="${spinstr#?}"
       printf " [%c]  " "${spinstr}"
