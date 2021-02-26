@@ -1,1 +1,3 @@
-sleep 20; "installing is in progress"
+#/bin/bash
+echo "installing is in progress"
+sleep 20;
