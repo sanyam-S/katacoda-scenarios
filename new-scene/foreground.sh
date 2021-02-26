@@ -1,1 +1,1 @@
-sleep 20; echo "installing is in progress"
+sleep 20; "installing is in progress"
